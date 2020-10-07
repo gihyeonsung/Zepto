@@ -33,6 +33,7 @@ library
   build-depends:
       base >=4.7 && <5
     , megaparsec
+    , parser-combinators
   default-language: Haskell2010
 
 executable Zepto-exe
@@ -46,6 +47,7 @@ executable Zepto-exe
       Zepto
     , base >=4.7 && <5
     , megaparsec
+    , parser-combinators
   default-language: Haskell2010
 
 test-suite Zepto-test
@@ -60,4 +62,5 @@ test-suite Zepto-test
       Zepto
     , base >=4.7 && <5
     , megaparsec
+    , parser-combinators
   default-language: Haskell2010
