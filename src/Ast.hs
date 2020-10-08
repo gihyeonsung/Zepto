@@ -1,5 +1,7 @@
 module Ast where
 
+import Data.Text
+
 data Stmt
   = Expr Expr
   deriving (Show)
@@ -18,7 +20,7 @@ data Expr
 data Lit
   = Num Integer
   | Bool Bool
-  | String String
+  | String Text
   deriving (Show)
 
 newtype Var = V String deriving (Show)
