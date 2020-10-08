@@ -11,8 +11,6 @@ data Expr
   | Sub Expr Expr
   | Mul Expr Expr
   | Div Expr Expr
-  | Mod Expr Expr
-  | Assign Var Expr
   | Lit Lit
   | Var Var
   deriving (Show)
